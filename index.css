@@ -18,6 +18,21 @@
     color: rgb(105, 105, 105);
 }
 
+.secondary-color {
+    color: rgb(88, 88, 88);
+}
+
+.font-32-extra-bold {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.btn-simple {
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
 /* Banner-section-css */
 .banner-container {
     max-width: 1440px;
@@ -66,4 +81,47 @@
     padding: 15px;
     background-color: black;
     border-radius: 5px;
+}
+
+/* < !-- why web development? section-css --> */
+.development-container {
+    border: 1px solid black;
+    margin: 0%;
+    margin: auto;
+    width: 1140px;
+    height: 1393px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mother-container {
+    border: 1px solid black;
+    width: 946px;
+    height: 1233px;
+}
+
+.mother-container h2 {
+    margin-bottom: 10px;
+}
+
+.webpart-one {
+    border: 1px solid black;
+    width: 946px;
+    height: 336px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.onepart-details {
+    width: 470px;
+
+}
+
+.onepart-details h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
