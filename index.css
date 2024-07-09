@@ -3,3 +3,67 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* shared-class  */
+.center-text {
+    text-align: center;
+}
+
+.primary-color {
+    color: rgb(105, 105, 105);
+}
+
+/* Banner-section-css */
+.banner-container {
+    max-width: 1440px;
+    height: 652px;
+    margin: 0%;
+    margin: auto;
+    background-image: url('/assets/Hero-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-details {
+    width: 998px;
+    height: 581px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner-details img {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 24px;
+}
+
+.banner-details h3 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.banner-details p {
+    font-size: 20px;
+    margin-top: 24px;
+}
+
+.banner-details a {
+    padding: 40px;
+}
+
+.btn-primary {
+    padding: 15px;
+    background-color: black;
+    border-radius: 5px;
+}
