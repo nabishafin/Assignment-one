@@ -204,3 +204,63 @@
 #purple {
     background-color: rgb(241, 208, 241);
 }
+
+/* support-container-css-style */
+.support-container {
+    width: 1140px;
+    height: 313px;
+    margin: 0% auto;
+    background-image: url('/assets/handshake.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-lastpart {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.input-field {
+    width: 348px;
+    height: 20px;
+}
+
+.submit-btn {
+    font-weight: 700;
+    /* margin-bottom: 15px; */
+}
+
+footer {
+    width: 1140px;
+    height: 100px;
+    margin: 0% auto;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.icons-position {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+}
+
+.icons-position li {
+    list-style-type: none;
+}
