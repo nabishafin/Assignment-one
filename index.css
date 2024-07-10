@@ -155,6 +155,7 @@
     border-radius: 10px;
 }
 
+
 /* current target css style */
 
 .cuurent-target {
@@ -221,6 +222,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 
 .support-lastpart {
