@@ -46,7 +46,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .banner-details {
@@ -129,4 +128,26 @@
 
 #header {
     margin-bottom: 70px;
+}
+
+.video-section {
+    width: 1140px;
+    height: 775px;
+    margin: 0%;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video-container {
+    border: 1px solid black;
+    width: 1140px;
+    height: 616px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
