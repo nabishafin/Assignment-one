@@ -241,7 +241,7 @@
 }
 
 footer {
-    width: 1140px;
+    width: 920px;
     height: 100px;
     margin: 0% auto;
     /* border: 1px solid black; */
@@ -252,6 +252,7 @@ footer {
     align-items: center;
     padding-left: 200px;
     padding-right: 200px;
+
 }
 
 .icons-position {
